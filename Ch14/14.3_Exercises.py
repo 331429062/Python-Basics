@@ -18,6 +18,7 @@ with output_path.open(mode='wb') as output_file:
     pdf_meger.write(output_file)
 
 # %%
+#Problem 2
 merge_path = Path.home()/'merged.pdf'
 concatenated_path = output_path
 merge3_path = merge_dir/'merge3.pdf'
